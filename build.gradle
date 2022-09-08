@@ -19,6 +19,14 @@ test {
 }
 
 dependencies {
+    testImplementation 'junit:junit:4.13.2'
+}
+
+test {
+    useJUnit()
+}
+
+dependencies {
     testImplementation 'org.testng:testng:7.6.0'
 
 }
